@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b7b2b1"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="109dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/heartlink_dois" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USUÁRIO"
+            android:layout_marginLeft="30dp"
+            android:textColor="#fe7c7c" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#edcaca"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SENHA"
+            android:textColor="#fe7c7c"
+            android:layout_marginLeft="30dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#edcaca"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:padding="5dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/esqueceu_a_senha"
+            android:textAlignment="textEnd"
+            android:textColor="#FFF"
+            android:layout_marginEnd="30dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/bordalogin"
+        android:text="Login"
+        android:textColor="#ff7d7d" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/linhacinza" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ou Conecte Com:"
+            android:textAlignment="center"
+            android:textColor="#808080" />
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/linhacinza" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+
+            android:background="@drawable/botaofacebook"
+            android:drawableStart="@drawable/logofacebook"
+            android:paddingLeft="20dp"
+            android:text="facebook"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+
+            />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/botaogoogle"
+            android:drawableStart=""
+            android:drawableLeft="@drawable/logogoogle"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="google"
+            android:textAlignment="center"
+            android:textColor="#FFF" />
+    </LinearLayout>
+</LinearLayout>
